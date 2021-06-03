@@ -1,0 +1,18 @@
+html {
+    text-align: center;
+}
+
+picture {
+    display: block;
+}
+
+picture img[data-src] {
+    filter: blur(0.3em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 1.5s;
+    max-width:300px;
+    max-height:400px;
+  }
